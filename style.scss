@@ -169,3 +169,53 @@ input{
 .search-font .icon{
     color: black;
 }
+
+.slider{
+    // position: relative;
+}
+
+.img-shoediv{
+    background-image: url(./image/sneaker6.jpg);background-size: cover;
+   height: 200px;width: 200px;
+    animation: shoe 5s infinite;transition: ease-in-out;
+
+    border-radius: 10px;
+}
+
+@keyframes shoe{
+    0% {
+        background-image: url(./image/sneakers.jpg);
+        transform: scale(0.9);
+    }
+
+    50%{
+        background-image: url(./image/sneakers5.jpg);
+        transform: scale(1);
+        
+    }
+
+    100%{
+        background-image: url(./image/nikeair.jpg);
+        transform: scale(0.9);
+    }
+}
+
+.img-shoe{
+    width: 12rem;
+    border-radius: 20px;
+}
+
+.img-bag{
+    width: 12rem;
+    border-radius: 20px;
+}
+
+.img-menshoe{
+    width: 12rem;
+    border-radius: 20px;
+}
+
+.img-boxers{
+    width: 12rem;
+    border-radius: 20px;
+}

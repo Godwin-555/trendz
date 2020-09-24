@@ -185,4 +185,72 @@ input {
 .search-font .icon {
   color: black;
 }
+
+.img-shoediv {
+  background-image: url(./image/sneaker6.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  -webkit-animation: shoe 5s infinite;
+          animation: shoe 5s infinite;
+  -webkit-transition: ease-in-out;
+  transition: ease-in-out;
+  border-radius: 10px;
+}
+
+@-webkit-keyframes shoe {
+  0% {
+    background-image: url(./image/sneakers.jpg);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  50% {
+    background-image: url(./image/sneakers5.jpg);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    background-image: url(./image/nikeair.jpg);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+
+@keyframes shoe {
+  0% {
+    background-image: url(./image/sneakers.jpg);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  50% {
+    background-image: url(./image/sneakers5.jpg);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    background-image: url(./image/nikeair.jpg);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+
+.img-shoe {
+  width: 12rem;
+  border-radius: 20px;
+}
+
+.img-bag {
+  width: 12rem;
+  border-radius: 20px;
+}
+
+.img-menshoe {
+  width: 12rem;
+  border-radius: 20px;
+}
+
+.img-boxers {
+  width: 12rem;
+  border-radius: 20px;
+}
 /*# sourceMappingURL=style.css.map */
