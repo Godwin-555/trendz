@@ -12,10 +12,10 @@ body {
 }
 
 .main-header {
-  width: 90%;
+  width: 95%;
   border: 2px solid lightgrey;
   border-radius: 10px;
-  margin: 50px;
+  margin: 25px;
 }
 
 .header {
@@ -147,11 +147,11 @@ input {
 }
 
 .main-menu {
-  width: 90%;
+  width: 95%;
   border: 2px solid lightgrey;
   border-radius: 10px;
-  margin: 0 50px;
-  height: 30rem;
+  margin: 0 25px;
+  height: 40rem;
 }
 
 .search-div {
@@ -169,7 +169,7 @@ input {
 }
 
 #search-bar {
-  width: 20rem;
+  width: 17rem;
   height: 50px;
   border-radius: 10px;
   outline: none;
@@ -179,22 +179,42 @@ input {
 .search-font {
   position: absolute;
   bottom: 1rem;
-  margin-left: 18rem;
+  margin-left: 15rem;
 }
 
 .search-font .icon {
   color: black;
 }
 
-.img-shoediv {
+.slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+}
+
+.slider1 {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 30px;
+}
+
+.slider1 .img-shoediv {
   background-image: url(./image/sneaker6.jpg);
   background-size: cover;
-  height: 200px;
-  width: 200px;
-  -webkit-animation: shoe 5s infinite;
-          animation: shoe 5s infinite;
+  height: 150px;
+  width: 170px;
+  -webkit-animation: shoe 9s infinite;
+          animation: shoe 9s infinite;
   -webkit-transition: ease-in-out;
   transition: ease-in-out;
+  -webkit-box-shadow: 3px 3px 5px 6px black;
+          box-shadow: 3px 3px 5px 6px black;
   border-radius: 10px;
 }
 
@@ -204,15 +224,17 @@ input {
     -webkit-transform: scale(0.9);
             transform: scale(0.9);
   }
-  50% {
+  40% {
     background-image: url(./image/sneakers5.jpg);
     -webkit-transform: scale(1);
             transform: scale(1);
   }
-  100% {
-    background-image: url(./image/nikeair.jpg);
+  60% {
+    background-image: url(./image/sneakers.jpg);
     -webkit-transform: scale(0.9);
             transform: scale(0.9);
+  }
+  80% {
   }
 }
 
@@ -222,31 +244,162 @@ input {
     -webkit-transform: scale(0.9);
             transform: scale(0.9);
   }
-  50% {
+  40% {
     background-image: url(./image/sneakers5.jpg);
     -webkit-transform: scale(1);
             transform: scale(1);
   }
-  100% {
-    background-image: url(./image/nikeair.jpg);
+  60% {
+    background-image: url(./image/sneakers.jpg);
     -webkit-transform: scale(0.9);
             transform: scale(0.9);
   }
+  80% {
+  }
 }
 
-.img-shoe {
-  width: 12rem;
-  border-radius: 20px;
+.slider1 .shoe-name {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 10px;
+  height: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-family: fantasy;
+  text-shadow: 3px 3px 5px;
 }
 
-.img-bag {
-  width: 12rem;
-  border-radius: 20px;
+.img-bagdiv {
+  background-image: url(./image/bag1.jpg);
+  background-size: cover;
+  height: 150px;
+  width: 170px;
+  -webkit-animation: bag 9s infinite;
+          animation: bag 9s infinite;
+  -webkit-transition: ease-in-out;
+  transition: ease-in-out;
+  -webkit-box-shadow: 3px 3px 5px 6px black;
+          box-shadow: 3px 3px 5px 6px black;
+  border-radius: 10px;
 }
 
-.img-menshoe {
-  width: 12rem;
-  border-radius: 20px;
+@-webkit-keyframes bag {
+  0% {
+    background-image: url(./image/bag.jpg);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  40% {
+    background-image: url(./image/bag1.jpg);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  60% {
+    background-image: url(./image/bag3.jpg);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  80% {
+  }
+}
+
+@keyframes bag {
+  0% {
+    background-image: url(./image/bag.jpg);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  40% {
+    background-image: url(./image/bag1.jpg);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  60% {
+    background-image: url(./image/bag3.jpg);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  80% {
+  }
+}
+
+.bag-name {
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  height: 30px;
+  padding: 10px;
+  font-variant: small-caps;
+  font-family: fantasy;
+  text-shadow: 3px 3px 5px;
+}
+
+.menshoe-name {
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  height: 30px;
+  padding: 10px;
+  font-variant: small-caps;
+  font-family: fantasy;
+  text-shadow: 3px 3px 5px;
+}
+
+.img-menshoediv {
+  background-image: url(./image/menshoe.jpg);
+  background-size: cover;
+  width: 170px;
+  height: 150px;
+  -webkit-animation: menshoe infinite 8s;
+          animation: menshoe infinite 8s;
+  border-radius: 9px;
+  -webkit-box-shadow: 3px 3px 5px 6px black;
+          box-shadow: 3px 3px 5px 6px black;
+}
+
+@-webkit-keyframes menshoe {
+  0% {
+    background-image: url(./image/menshoe.jpg);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  40% {
+    background-image: url(./image/mensshoes.jpg);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  60% {
+    background-image: url(./image/menshoe.jpg);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  80% {
+  }
+}
+
+@keyframes menshoe {
+  0% {
+    background-image: url(./image/menshoe.jpg);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  40% {
+    background-image: url(./image/mensshoes.jpg);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  60% {
+    background-image: url(./image/menshoe.jpg);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  80% {
+  }
 }
 
 .img-boxers {
