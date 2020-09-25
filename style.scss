@@ -11,10 +11,10 @@ body{
 }
 
 .main-header{
-    width: 90%;
+    width: 95%;
     border:2px solid lightgrey;
     border-radius: 10px;
-    margin: 50px;
+    margin:  25px;
     
 }
 
@@ -133,12 +133,15 @@ input{
 }
 
 .main-menu{
-    width: 90%;
+    width: 95%;
     border:2px solid lightgrey;
     border-radius: 10px;
-    margin: 0 50px;
-    height: 30rem;
+    margin: 0 25px;
+    height: 40rem;
+    
 }
+
+
 
 .search-div{
     display: flex;
@@ -171,15 +174,31 @@ input{
 }
 
 .slider{
-    // position: relative;
+    display: flex;
+    flex-wrap: wrap-reverse;;
+    justify-content: center;
+    margin-top: 15px;
+    // border: 1px solid black;
+    
+    
 }
 
+.slider1{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 30px;
+    // margin-right: 7rem;
+
 .img-shoediv{
-    background-image: url(./image/sneaker6.jpg);background-size: cover;
-   height: 200px;width: 200px;
-    animation: shoe 5s infinite;transition: ease-in-out;
+    background-image: url(./image/sneaker6.jpg);
+    background-size: cover;
+    height: 150px;width: 170px;
+    animation: shoe 9s infinite;transition: ease-in-out;
+    box-shadow: 3px 3px 5px 6px black;
 
     border-radius: 10px;
+    
+
 }
 
 @keyframes shoe{
@@ -188,31 +207,144 @@ input{
         transform: scale(0.9);
     }
 
-    50%{
+    40%{
         background-image: url(./image/sneakers5.jpg);
         transform: scale(1);
         
     }
 
-    100%{
-        background-image: url(./image/nikeair.jpg);
+    60%{
+        background-image: url(./image/sneakers.jpg);
         transform: scale(0.9);
+    }
+
+    80%{
+        // border-image: url(./image/sneakers5.jpg);
     }
 }
 
-.img-shoe{
-    width: 12rem;
-    border-radius: 20px;
+.shoe-name{
+    border: 1px solid black;
+    border-radius: 3px;
+    // width: 12.5rem;
+    padding: 10px;
+    height: 30px;
+    text-align: center;
+    // color: white;    
+    font-weight: bold;
+    // border:none;
+    // padding-top: 11.2rem;
+    font-variant: small-caps;
+    font-family: fantasy;
+    text-shadow: 3px 3px 5px;
 }
 
-.img-bag{
-    width: 12rem;
-    border-radius: 20px;
+
+
+
 }
 
-.img-menshoe{
-    width: 12rem;
-    border-radius: 20px;
+
+
+.img-bagdiv{
+    background-image: url(./image/sneaker6.jpg);
+    background-size: cover;
+    height: 150px;width: 170px;
+    animation: bag 9s infinite;transition: ease-in-out;
+    box-shadow: 3px 3px 5px 6px black;
+
+    border-radius: 10px;
+    
+
+}
+
+@keyframes bag{
+    0% {
+        background-image: url(./image/bag.jpg);
+        transform: scale(0.9);
+    }
+
+    40%{
+        background-image: url(./image/bag1.jpg);
+        transform: scale(1);
+        
+    }
+
+    60%{
+        background-image: url(./image/bag3.jpg);
+        transform: scale(0.9);
+    }
+
+    80%{
+        // border-image: url(./image/sneakers5.jpg);
+    }
+}
+
+.bag-name{
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    height: 30px;
+    padding: 10px;
+    // padding-top: 11.5rem;
+    // border:none;
+    font-variant: small-caps;
+    font-family: fantasy;
+    text-shadow: 3px 3px 5px;
+}
+
+
+
+.menshoe-name{
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    height: 30px;
+    padding: 10px;
+    // padding-top: 11.5rem;
+    // border:none;
+    font-variant: small-caps;
+    font-family: fantasy;
+    text-shadow: 3px 3px 5px;
+}
+
+.img-menshoediv{
+    background-image: url(./image/menshoe.jpg);
+    background-size: cover;
+    width: 170px;
+    height: 150px;
+    animation: menshoe infinite 8s ;
+    border-radius: 9px;
+    box-shadow: 3px 3px 5px 6px black;
+    
+}
+
+
+
+@keyframes menshoe{
+    0% {
+        background-image: url(./image/menshoe.jpg);
+        transform: scale(0.9);
+    }
+
+    40%{
+        background-image: url(./image/mensshoes.jpg);
+        transform: scale(1);
+        
+    }
+
+    60%{
+        background-image: url(./image/menshoe.jpg);
+        transform: scale(0.9);
+    }
+
+    80%{
+        // border-image: url(./image/sneakers5.jpg);
+    }
 }
 
 .img-boxers{
