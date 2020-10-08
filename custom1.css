@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration:none;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    position: relative;
+}
+
+.main-header{
+    width: auto;
+    border:2px solid lightgrey;
+    border-radius: 10px;
+    margin:  0 25px;
+    
+    
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.header-group1{
+    display: flex;
+    flex: 1;
+}
+.header-group1{
+    margin-top: 40px;
+}
+
+.header-gender{
+    padding-top: 68px;
+    padding-left: 10px;
+}
+
+.chima{
+    border: 1px solid black;
+}
+
+.header-gender a{
+    color: black;
+}
+
+.logo img{
+    width: 80px;
+    height: 90px;
+}
+
+.header-group2{
+    display: flex;
+    flex: 1;
+     margin-top: 6px;
+}
+
+.header-socialmedia{
+    display: flex;
+    padding-top: 85px;
+    
+}
+
+.header-socialmedia li a img{
+    width: 30px;
+    margin: 10px;
+}
+
+.header-group3{
+    flex: end;
+    margin-top: 95px;
+    
+}
+
+.heaader-contact{
+    display: flex;
+    padding: 0 10px;
+    padding-top: 15px;
+}
+
+.heaader-contact li a{
+    color: black;
+}
+
+.phone{
+    padding: 6px;
+    
+}
+
+.phone:hover{
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.phone:hover{
+    color: white;
+}
+
+.phone{
+    padding: 6px;
+    
+}
+
+.phone:hover{
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    
+    
+}
+
+.Login-btn:hover{
+    color: white;
+}
+
+.Login-btn{
+    
+    padding: 6px;
+    
+}
+
+.Login-btn:hover{
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.Login-btn:hover{
+    color: white;
+}
+
+.phone{
+    padding: 5px;
+    
+}
+
+.bb{
+    padding: 0 60px;
+    width:70px;
+    color: blue;
+}
+
+.bb:hover{
+    background-color: orange;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px;
+    color: white;
+}
+
+.nm{
+    padding:0 9px;
+}
+
+.nm:hover{
+    background-color: orange;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px;
+    color: white;
+    
+}
+
+
+
+.phone:hover{
+    background-color:orange;
+    border-radius: 5px;
+    
+}
+
+.phone:hover{
+    color: white;
+}
+
+.Login{
+    width: auto;
+    background-color: white;
+    text-align: center;
+    height: 232px;
+    background-color: white;
+    z-index: 1;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    margin: 50px 90px;
+}
+
+.phone{
+    position: relative;
+    
+}
+
+
+
+a{
+    color: black;
+}
+
+
+ .vv{
+    
+    color: black;
+}
+.vv{
+    padding: 9px;
+    color: black;
+    padding-right: 7rem;
+    
+}
+
+.vv:hover{
+    background-color: orange;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px;
+    color: white;
+}
+
+.vs{
+    padding: 9px;
+    
+
+}
+
+.vs:hover{
+    background-color: orange;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px;
+    color: white;
+}
+
+.ve{
+    padding: 9px;
+}
+
+ .ve:hover{
+  background-color: orange;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow:1px 1px 2px;
+  
+  
+}
+
+
+
+ .vs{
+    padding-right: 8rem ;
+    color: black;
+}
+
+ .ve{
+    padding-right: 7.5rem;
+}
+
+.nm{
+    color: blue;
+}
+
+
+
+.share{
+    padding-right: 7px;
+}
+
+.register-div{
+    display: flex;
+    justify-content: center;
+    border: 1px solid green;
+    margin-left: 65%;
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+    
+    display: none;
+    position: absolute;
+    
+    
+    
+}
+
+.btn{
+    
+    background-color: blue;
+    width: 100px;
+    border:none;
+    color:#000000;
+    text-align: center;
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+  
+}
+
+
+input{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+    height: 20px;
+}
+
+.register{
+    
+    
+    padding: 10px;
+
+    
+}
+
+.main-menu-login{
+    width: auto ;    
+    border:2px solid lightgrey;
+    border-radius: 5px;
+    margin: 0 25px;
+    height: auto;
+    background-color: white;
+    
+}
+
+.login-main{
+    width: 50%;
+    padding-left: 10px;
+}
+
+.email-inp{
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.password-inp{
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.login-text{
+    text-align: center;
+    padding-bottom: 30px;
+    color: orangered;
+    
+}
+
+.names{
+    display: flex;
+}
+
+.email-password{
+    display: flex;
+}
+
+/* .names{
+    
+} */
+
+.email-password{
+    
+    padding-top: 10px;
+}
+
+form{
+    padding: 10px;
+}
+
+.phone-num{
+    width: 200px;
+
+}
+
+.phone-inp{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline-style: none;
+}
+
+.passforget{
+    
+    padding: 30px 0;
+    display: flex;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    
+}
+
+.checkbox-info{
+    padding: 0 10px;
+    color: orangered;
+}
+
+.envelope-font1{
+    position: absolute;
+}
+
+.facebookbutton-container{
+    display: flex;
+    padding: 5px 0;
+}
+
+.button-container{
+    display: flex;
+    position: relative;
+    padding: 5px 0  ;
+}
+
+.envelope-font2{
+    position: absolute;
+}
+
+.submit-btn2{
+    width: 200px;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.submit-btn1{
+    width: 200px;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.email1{
+    padding: 10px;
+}
+
+.email2{
+    padding: 10px;
+}

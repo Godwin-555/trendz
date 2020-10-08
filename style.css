@@ -5,6 +5,7 @@
   text-decoration: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: cursive;
 }
 
 body {
@@ -12,10 +13,10 @@ body {
 }
 
 .main-header {
-  width: 95%;
+  width: auto;
   border: 2px solid lightgrey;
   border-radius: 10px;
-  margin: 25px;
+  margin: 0 25px;
 }
 
 .header {
@@ -42,6 +43,11 @@ body {
 .header-gender {
   padding-top: 68px;
   padding-left: 10px;
+  position: relative;
+}
+
+.chima {
+  border: 1px solid black;
 }
 
 .header-gender a {
@@ -60,14 +66,13 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  margin-top: 70px;
 }
 
 .header-socialmedia {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 15px;
+  padding-top: 85px;
 }
 
 .header-socialmedia li a img {
@@ -86,7 +91,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 10px;
+  padding: 0 10px;
+  padding-top: 15px;
 }
 
 .heaader-contact li a {
@@ -94,7 +100,185 @@ body {
 }
 
 .phone {
-  padding-right: 5px !important;
+  padding: 6px;
+}
+
+.phone:hover {
+  background-color: orange;
+  border-radius: 5px;
+}
+
+.phone:hover {
+  color: white;
+}
+
+.phone {
+  padding: 6px;
+}
+
+.phone:hover {
+  background-color: orange;
+  border-radius: 5px;
+  color: white;
+}
+
+.Login-btn:hover {
+  color: white;
+}
+
+.Login-btn {
+  padding: 6px;
+}
+
+.Login-btn:hover {
+  background-color: orange;
+  border-radius: 5px;
+}
+
+.Login-btn:hover {
+  color: white;
+}
+
+.phone {
+  padding: 5px;
+}
+
+.bb {
+  padding: 0 60px;
+  width: 70px;
+  color: blue;
+}
+
+.bb:hover {
+  background-color: orange;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 2px;
+          box-shadow: 1px 1px 2px;
+  color: white;
+}
+
+.nm {
+  padding: 0 9px;
+}
+
+.nm:hover {
+  background-color: orange;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 2px;
+          box-shadow: 1px 1px 2px;
+  color: white;
+}
+
+.phone:hover {
+  background-color: orange;
+  border-radius: 5px;
+}
+
+.phone:hover {
+  color: white;
+}
+
+.Login {
+  width: auto;
+  background-color: white;
+  text-align: center;
+  height: 232px;
+  background-color: white;
+  z-index: 1;
+  border-radius: 5px;
+  display: none;
+  position: absolute;
+  margin: 50px 90px;
+}
+
+.category-content {
+  width: 130px;
+  background-color: lightgrey;
+  height: auto;
+  z-index: 1;
+  border-radius: 5px;
+  display: none;
+  position: absolute;
+  margin: 110px 84px;
+}
+
+.open {
+  display: block;
+}
+
+.cate-content {
+  padding: 5px;
+}
+
+.cate-content:hover {
+  border-radius: 4px;
+  background-color: lightblue;
+  color: white;
+  font-weight: bolder;
+}
+
+.phone {
+  position: relative;
+}
+
+a {
+  color: black;
+}
+
+.vv {
+  color: black;
+}
+
+.vv {
+  padding: 9px;
+  color: black;
+  padding-right: 7rem;
+}
+
+.vv:hover {
+  background-color: orange;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 2px;
+          box-shadow: 1px 1px 2px;
+  color: white;
+}
+
+.vs {
+  padding: 9px;
+}
+
+.vs:hover {
+  background-color: orange;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 2px;
+          box-shadow: 1px 1px 2px;
+  color: white;
+}
+
+.ve {
+  padding: 9px;
+}
+
+.ve:hover {
+  background-color: orange;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 2px;
+          box-shadow: 1px 1px 2px;
+}
+
+.vs {
+  padding-right: 8rem;
+  color: black;
+}
+
+.ve {
+  padding-right: 7.5rem;
+}
+
+.nm {
+  color: blue;
 }
 
 .share {
@@ -147,11 +331,12 @@ input {
 }
 
 .main-menu {
-  width: 95%;
+  width: auto;
   border: 2px solid lightgrey;
   border-radius: 10px;
   margin: 0 25px;
-  height: 40rem;
+  height: auto;
+  background-color: whitesmoke;
 }
 
 .search-div {
@@ -169,7 +354,7 @@ input {
 }
 
 #search-bar {
-  width: 17rem;
+  width: 14rem;
   height: 50px;
   border-radius: 10px;
   outline: none;
@@ -179,7 +364,7 @@ input {
 .search-font {
   position: absolute;
   bottom: 1rem;
-  margin-left: 15rem;
+  margin-left: 12rem;
 }
 
 .search-font .icon {
